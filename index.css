@@ -129,6 +129,7 @@ a:hover {
 }
 
 .searchbar {
+    position: relative;
     grid-area: searchbar;
     display: -webkit-inline-flex;
     display: inline-flex;
@@ -141,6 +142,19 @@ a:hover {
     font-size: 120%;
     padding-left: 10px;
     flex-grow: 1;
+}
+
+.searchbar button:after {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 22px 0 22px 30.1px;
+    border-color: transparent transparent transparent #F9E148;
 }
 
 .searchbar button {
