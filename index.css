@@ -156,6 +156,10 @@ a:hover {
     padding: 0 13px;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
 
 .adv-img {
     width: 150px;
@@ -166,7 +170,6 @@ a:hover {
 .adv-horizontal-img {
     width: 800px;
     height: 150px;
-    object-fit: fit;
     border: 1px solid #000;
 }
 
