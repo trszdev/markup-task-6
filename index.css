@@ -101,16 +101,16 @@ ul {
 }
 
 .link-settings {
-    color: black;
+    color: #000;
 }
 
 .yandex-color {
     display: inline-block;
-    color: black;
+    color: #000;
 }
 
 .yandex-color:first-letter {
-    color: red;
+    color: #f00;
 }
 
 a {
@@ -149,7 +149,7 @@ a:hover {
 
 .searchbox button {
     background: #F9E148;
-    color: black;
+    color: #000;
     height: 44px;
     border: 0;
     cursor: pointer;
